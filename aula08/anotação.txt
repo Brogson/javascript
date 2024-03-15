@@ -1,0 +1,46 @@
+Operadores lógicos: 
+
+!   
+
+negação
+operador unário
+
+!true = false
+!false = true
+
+----------------
+&&
+
+conjunção (e lógico)
+true&&true = true
+true&&false = false
+false&&true = false
+false&&false = false
+
+-----------------
+||
+
+disjunção ('ou' lógico)
+
+true||true = true
+true||false = true
+false||true = true
+false||false = false
+
+----------------------------
+-----------------------------
+Primeiro operadores aritméticos %
+depois operadores relacionais >
+e por fim operadores lógicos &&
+
+  2   3  1 
+a > b && % 2 == 0
+
+--------------------------------
+--------------------------------
+
+Operadores Ternários:
+
+?
+teste:?true:false
+média >= 7?"Aprovado":"reprovado
