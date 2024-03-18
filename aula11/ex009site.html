@@ -16,13 +16,15 @@
     <p>Digite seu país de origem</p>
     <input type="text" name="txtp" id="txtp">
     <input type="button" value="Verificar" onclick="verificar()">
+    <div id="local"></div>
     <div id="result"></div>
     <script>
         var txtpais = document.getElementById('txtp')
         var res = document.querySelector('div#result')
+        var loc = document.querySelector('div#local')
 
         function verificar(){
-            res.innerHTML = `<p>Você é do país: ${txtpais.value}</p>`
+            loc.innerHTML = `<p>Você é do país: <strong>${txtpais.value}!</strong></p>`
             if (txtpais.value == 'Brasil'){
                 res.innerHTML = '<p>Você é Brasileiro!</p>'
             } else{
