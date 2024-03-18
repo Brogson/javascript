@@ -1,0 +1,46 @@
+Condições em JavasCript:
+
+Parte 1
+
+Sequências:
+
+=Exemplo==================
+
+var n = 3
+
+n += 2
+
+window.alert(n)
+
+
+existe uma ordem específica para que o resultado seja correto no exemplo acima
+==========================
+
+Condições:
+
+são desvios numa estrutura de código, onde uma sequência é bifurcada
+
+/* if(condição){
+    true
+} else{
+    false
+}
+
+Tipos de condições:
+
+condição simples: 
+
+/* if(condição){
+    true
+}
+
+
+
+condição composta:
+
+/* if(condição){
+    true
+} else{
+    false
+}
+
