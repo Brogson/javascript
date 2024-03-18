@@ -22,11 +22,11 @@
         var res = document.querySelector('div#result')
 
         function verificar(){
-            res.innerHTML = `<p>Você é do país: ${txtpais}</p>`
-            if (país == 'Brasil'){
-                res.innerHTML = 'Você é Brasileiro!'
+            res.innerHTML = `<p>Você é do país: ${txtpais.value}</p>`
+            if (txtpais.value == 'Brasil'){
+                res.innerHTML = '<p>Você é Brasileiro!</p>'
             } else{
-                res.innerHTML = 'Você é estrangeiro'
+                res.innerHTML = '<p>Você é estrangeiro</p>'
             }
         }
     </script>
