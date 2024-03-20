@@ -1,0 +1,22 @@
+Repetições em JavaScript
+
+function comerPizza(){
+    comerFatia()
+    comerFatia()
+    comerFatia()
+    comerFatia()
+    comerFatia()
+    comerfatia()
+    comerFatia()
+    comerfatia()
+}
+
+while(condição){
+
+}[se verdadeiro, retorna ao início da chave]
+
+function comerPizza(){
+    while(temFatia()){
+        comerFatia()
+    }
+}
