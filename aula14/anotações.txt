@@ -1,0 +1,3 @@
+for (início;teste;incremento){
+
+}
