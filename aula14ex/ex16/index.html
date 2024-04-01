@@ -8,11 +8,19 @@
 </head>
 <body>
     <header>
-        <h1>Vamos contar</h1>
+        <h1>Contador</h1>
     </header>
         <section>
-            <div></div>
-            <div></div>
+            <div id="dados">
+                <p>Início: <input type="number" name="inicio" id="txtinicio"></p>
+                <p>Fim: <input type="number" name="fim" id="txtfim"></p>
+                <p>Quantidade de passos: <input type="number" name="passos" id="txtpassos"></p>
+                <input type="button" value="Contar" onclick="contar()">
+            </div>
+            <br>
+            <div id="res">
+                Preparando a contagem...
+            </div>
         </section>
     <footer>
         <p>&copy; CursoemVideo</a></p>
