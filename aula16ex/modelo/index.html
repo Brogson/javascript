@@ -3,19 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabuada</title>
+    <title>Analisador de Números</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Tabuada</h1>
+        <h1>Analisador de Números</h1>
     </header>
         <section>
             <div>
-                <p>Número: <input type="number" name="numero" id="txtnumero"> <input type="button" value="Gerar tabuada" onclick="gerar()"></p>
+                <p>Número (De 1 a 100): <input type="number" name="numero" id="txtnumero"> <input type="button" value="Adicionar" onclick="adicionar()"></p>
+            </div>
+            <div>
+                <select name="tabela" id="tabela" size="10"></select>
+                <br>
+                <input type="button" value="Finalizar" onclick="analise()">
             </div>
             <div id="res">
-                <select name="tabuada" id="selTab" size="10"></select>
+                
             </div>
         </section>
     <footer>
